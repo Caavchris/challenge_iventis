@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug ScrappingCurrency",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/main_scrapping.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "Debug API Movies",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/main_api.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        }
+    ]
+}
